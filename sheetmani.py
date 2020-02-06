@@ -13,7 +13,7 @@ Collect command-line arguments
 def cli():
     parser = argparse.ArgumentParser()
     parser.add_argument('--file', '-f', help='your xls/xlsx source file', required=True)
-    parser.add_argument('--sheet', '-s', help='Sheet name', default='SERIE', required=False)
+    parser.add_argument('--sheet', '-s', help='Sheet name', required=True)
     parser.add_argument('--output', '-o', help='Book name for AVG graph result', default='default', required=False)
     return parser.parse_args()
 
