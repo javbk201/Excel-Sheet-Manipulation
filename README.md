@@ -4,13 +4,15 @@ Python script to manipulate excel sheet, calculating average of one column. Usin
 Español:
 Script de Python para manipular la hoja de Excel, calculando el promedio de una columna. Usando openpyxl, una lib de python, traza un gráfico entre la columna A y B
 
-Funtionality
+# Funtionality
 
-# --file, -f
+/$ Python sheetmani.py --file --sheet --output
+
+--file, -f
 Insert your xls/xlsx source file
 
-# --sheet, -s
+--sheet, -s
 Insert sheet name
 
-# --output, -o
+--output, -o
 Define book name for AVG graph file result, default is default.xlsx. The name don't need the extension, because is defined as .xlsx 
