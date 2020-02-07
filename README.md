@@ -22,7 +22,7 @@ Define book name for AVG graph file result, default is default.xlsx. The name do
 
 Define el nombre del libro para el promedio y la grafica resultante, que por defecto es default.xlsx. El nombre no necesita la extensión, pues viene definida como .xlsx
 
-You should tu run 
+You should to run 
 
     pip install -r requirements.txt
     
